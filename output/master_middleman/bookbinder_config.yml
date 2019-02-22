@@ -1,0 +1,154 @@
+---
+:archive_menu:
+  ".": 
+:production_host: docs.pivotal.io
+:subnav_templates:
+  pcf-healthwatch_1-4: pcf_healthwatch_1_4_subnav
+  pcf-healthwatch_1-3: pcf_healthwatch_1_3_subnav
+  pcf-healthwatch_1-2: pcf_healthwatch_1_2_subnav
+  pcf-healthwatch_1-1: pcf_healthwatch_1_1_subnav
+  pcf-healthwatch_1-0: pcf_healthwatch_1_0_subnav
+:template_variables:
+  book_title: Pivotal Documentation
+  book_title_short: Pivotal Docs
+  title: <span class="title-deemph">Pivotal</span> Documentation
+  hero_text: Detailed documentation to help you install, understand, and succeed with
+    Pivotal's enterprise-grade software.
+  product_full: Elastic Runtime
+  product_short: Elastic Runtime
+  product_name: PCF
+  product_abbr: 
+  product_url: https://network.pivotal.io/products/pivotal-cf
+  product_link: <div class="header-item"><a href="https://network.pivotal.io/products/pivotal-cf">Back
+    to Product Page</a></div>
+  support_link: <a href="http://support.pivotal.io" target="_blank">Support</a>
+  support_call_to_action: <a href="http://support.pivotal.io" target="_blank">Need
+    Support?</a>
+  support_url: http://support.pivotal.io
+  use_global_header: true
+  global_header_product_href: https://network.pivotal.io/
+  global_header_product_link_text: Downloads
+  gtm_account_id: GTM-MW4LZHR
+:local_repo_dir: "/Users/paigecalvert/workspace"
+:workspace: !ruby/object:Pathname
+  path: "/Users/paigecalvert/workspace/docs-book-healthwatch/output/master_middleman/source"
+:feedback_enabled: true
+:repo_link_enabled: true
+:repo_links:
+  pcf-healthwatch/1-4:
+    repo: pivotal-cf/docs-pcf-healthwatch
+    ref: '1.4'
+    at_path: 
+  pcf-healthwatch/1-3:
+    repo: pivotal-cf/docs-pcf-healthwatch
+    ref: '1.3'
+    at_path: 
+  pcf-healthwatch/1-2:
+    repo: pivotal-cf/docs-pcf-healthwatch
+    ref: '1.2'
+    at_path: 
+  pcf-healthwatch/1-1:
+    repo: pivotal-cf/docs-pcf-healthwatch
+    ref: '1.1'
+    at_path: 
+  pcf-healthwatch/1-0:
+    repo: pivotal-cf/docs-pcf-healthwatch
+    ref: '1.0'
+    at_path: 
+:product_info:
+  pcf-healthwatch_1-4:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/pcf-healthwatch/1-4/release-notes.html
+    local_header_img: "/images/cloud_rings.png"
+    local_header_title: PCF Healthwatch
+    search_placeholder: Search PCF Healthwatch
+    url_prefix: pcf-healthwatch/1-4
+    local_product_version: 1.4
+    local_header_links: []
+    local_header_version_list:
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-3
+      display_name: v1.3
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-2
+      display_name: v1.2
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-1
+      display_name: v1.1
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-0
+      display_name: v1.0
+  pcf-healthwatch_1-3:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/pcf-healthwatch/1-3/release-notes.html
+    local_header_img: "/images/cloud_rings.png"
+    local_header_title: PCF Healthwatch
+    search_placeholder: Search PCF Healthwatch
+    url_prefix: pcf-healthwatch/1-3
+    local_product_version: 1.3
+    local_header_links: []
+    local_header_version_list:
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-4
+      display_name: v1.4
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-2
+      display_name: v1.2
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-1
+      display_name: v1.1
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-0
+      display_name: v1.0
+  pcf-healthwatch_1-2:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/pcf-healthwatch/1-2/release-notes.html
+    local_header_img: "/images/cloud_rings.png"
+    local_header_title: PCF Healthwatch
+    search_placeholder: Search PCF Healthwatch
+    url_prefix: pcf-healthwatch/1-2
+    local_product_version: 1.2
+    local_header_links: []
+    local_header_version_list:
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-4
+      display_name: v1.4
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-3
+      display_name: v1.3
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-1
+      display_name: v1.1
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-0
+      display_name: v1.0
+  pcf-healthwatch_1-1:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/pcf-healthwatch/1-1/release-notes.html
+    local_header_img: "/images/cloud_rings.png"
+    local_header_title: PCF Healthwatch
+    search_placeholder: Search PCF Healthwatch
+    url_prefix: pcf-healthwatch/1-1
+    local_product_version: 1.1
+    local_header_links: []
+    local_header_version_list:
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-4
+      display_name: v1.4
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-3
+      display_name: v1.3
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-2
+      display_name: v1.2
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-0
+      display_name: v1.0
+  pcf-healthwatch_1-0:
+    use_local_header: true
+    latest_stable_version: 1.4
+    changelog_href: https://docs.pivotal.io/pcf-healthwatch/1-0/release-notes.html
+    local_header_img: "/images/cloud_rings.png"
+    local_header_title: PCF Healthwatch
+    search_placeholder: Search PCF Healthwatch
+    url_prefix: pcf-healthwatch/1-0
+    local_product_version: 1.0
+    local_header_links: []
+    local_header_version_list:
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-4
+      display_name: v1.4
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-3
+      display_name: v1.3
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-2
+      display_name: v1.2
+    - url_prefix: http://docs.pivotal.io/pcf-healthwatch/1-1
+      display_name: v1.1
+:elastic_search: true
