@@ -5,4 +5,4 @@ r301 %r{.*}, 'https://docs.pivotal.io$&', :if => Proc.new { |rack_env|
 
 # Redirects for docs-book-healthwatch
 
-r301 %r{/pcf-healthwatch/(?![\d-]+)(.*)}, "/pcf-healthwatch/1-4/$1"
+r301 %r{/observability-data-store/(?![\d-]+)(.*)}, "/observability-data-store/1-0/$1"
