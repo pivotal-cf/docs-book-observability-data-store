@@ -1,6 +1,6 @@
-#  PCF Healthwatch Documentation Book 
+# Observability Data Store for PCF Documentation Book
 
-This project can create and publish the documentation for PCF Healthwatch as a web application.
+This project can create and publish the documentation for Observability Data Store for PCF as a web application.
 
 In this topic:
 
@@ -21,7 +21,7 @@ Bookbinder uses this centralized layout repository by default, but files in the 
 
 ## What's in this Repo
 
-Here you'll find the configuration and templates for the PCF Healthwatch documentation set.
+Here you'll find the configuration and templates for the Observability Data Store for PCF documentation set.
 
 This repository *does not* contain the actual documentation content. 
 Actual content is contained in the topic repositories listed in the `config.yml` file.
@@ -58,29 +58,6 @@ So, for example, if you are working on docs that are also used in for open sourc
 ## Submitting a Pull Request
 
 This is a Bookbinder project. See [its README](https://github.com/pivotal-cf/bookbinder/blob/master/README.md) for instructions on how edits are made.
-
-## Continuous Integration Technical Details
-
-We deploy this documentation as an app using Concourse pipelines, at https://p-concourse.wings.cf-app.com/teams/system-team-docs-docs-1-88aa/pipelines/cf-current?groups=pcfservices
-
-Credential for our pipeline are stored in LastPass. 
-Tarballs of the builds are stored on Amazon S3. 
-Use the creds stored in LastPass to log in.
-
-The CI status can be monitored via the [Checkman](https://github.com/cppforlife/checkman) application (Mac only).
-
-Once installed, configure Checkman to be aware of the CI builds by putting the following in a file called `~/Checkman/bookbinder`:
-
-    PCF Bind: concourse.check https://pubtools.ci.cf-app.com REPLACE-WITH-USERNAME REPLACE-WITH-PASSWORD cf-current pcfservices
-
-## Deployment Details
-
-Staging and Production are both on run.pivotal.io:
-
-- [Staging](http://cf-p1-docs-staging.cfapps.io/)
-- [Production](http://cf-p1-docs-prod.cfapps.io/)
-
-See the config.yml for details.
 
 ## Notes on the config.yml 
 
