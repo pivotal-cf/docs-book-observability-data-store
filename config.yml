@@ -24,8 +24,8 @@ sections:
     latest_stable_version: 1.0
     changelog_href: https://docs.pivotal.io/observability-data-store/1-0/release-notes.html
     local_header_img: /images/cloud_rings.png
-    local_header_title: Observability Data Store for PCF
-    search_placeholder: Search Observability Data Store for PCF
+    local_header_title: Reliability View for PCF
+    search_placeholder: Search Reliability View for PCF
     url_prefix: observability-data-store/1-0
     local_product_version: 1.0
     local_header_links: []
